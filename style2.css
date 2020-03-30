@@ -1,0 +1,65 @@
+body
+{
+	font-family: 'Helvetica Neue', sans-serif;
+	background: #d5f0f3;
+	background-image: url(background.jpg);
+	background-size: 100%;
+	background-attachment:fixed;
+}
+
+form
+{
+	width: 100%;
+}
+
+.Judul
+{
+	text-align: center;
+	color: whitesmoke;
+	font-size: larger;
+}
+
+.form-table
+{
+	text-align: center;
+	color: white;
+	border-collapse: collapse;
+	font-size: larger;
+}
+.form-table th, 
+.form-table td {
+	border: 0px solid #e1edff;
+	padding : 2px
+}
+
+.turun_berat
+{
+	text-align: center;
+	color: white;
+	font-size: larger;
+}
+
+.tombol_hitung
+{
+	text-align: center;
+	background:#2C97DF;
+	color:white;
+	width: 30%;
+  	border-top:0;
+  	border-left:0;
+  	border-right:0;
+  	border-bottom:5px solid #2A80B9;
+  	padding:5px 10px;
+  	text-decoration:none;
+  	font-family:sans-serif;
+  	font-size:11pt;
+}
+
+
+.form
+{
+	width: 500px;
+	background: rgba(166, 203, 218, 0.329);
+	margin: 80px auto;
+	padding: 30px 20px;
+}
