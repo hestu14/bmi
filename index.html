@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Menghitung BMI</title>
+     <link rel="stylesheet" type="text/css" href="style2.css">
+     <script src="script.js"></script>
+     <link rel="icon" 
+     type="image/png" 
+     href="icon.png">
+</head>
+<body>
+     <form>
+     <div class="form">
+
+          <h2><p class="Judul">Menghitung Body Mass Index</p></h2>
+          <center>
+          <table class="form-table">
+          <tbody>
+          
+               <tr>
+               <td><p class ="nama">Nama Kamu :</td></p>
+               <td><input type="text" id="nama"></td>
+               </tr>
+
+               <tr>
+               <td><p class ="berat">Berat Badan :</td></p>
+               <td><input type="text" id="berat" onkeypress="return hanyaAngka(event)"></td>
+               <td>kg</td>
+               </tr>
+               
+               <tr>
+               <td><p class ="tinggi">Tinggi Badan :</td></p>
+               <td><input type="text" id="tinggi" onkeypress="return hanyaAngka(event)"></td>
+               <td>cm</td>
+               </tr>
+               
+          </tbody>
+          </table>
+          </center>
+
+          <center><p class ="tombol_hitung" input type="sumbit" value="Hitung BMI" onclick="HitungBMI()">Hitung Nilai BMI</p></center>
+     
+          <p class ="turun_berat">Kamu harus nurunin berat badan : <input type="text" id="Turun" disabled> kg</p>
+     </form>
+     </div>
+</body>
+</html>
